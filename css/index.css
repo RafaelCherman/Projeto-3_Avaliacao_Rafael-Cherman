@@ -302,19 +302,14 @@ body
 
     .pp
     {
-        height: 522px;
+        height: 584px;
         background-color: var(--cor-azul-forte);
-        
+        background-image: url(../img/background_tablet.png);
+        background-size: cover;
         display: flex;
         align-items: center;
         justify-content: space-around;
         flex-direction: column;
-    }
-
-    #pp_fundo
-    {
-        background-image: url(../img/background_tablet.png);
-        background-size: 1485px 522px;
     }
     
     .pp__textos
@@ -325,7 +320,7 @@ body
     .pp__texto_titulo
     {
         margin-top: 140px;
-        width: 728px;
+        width: 95vw;
         height: 130px;
         font-family: 'Inter';
         font-style: normal;
@@ -426,8 +421,19 @@ body
         background-color: var(--cor-branca);
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-between;
         flex-direction: column;
+    }
+
+    .sp__textos
+    {
+        width: 100%;
+        margin-top: 105px;
+    }
+
+    .sp__margin_texto
+    {
+        margin: 0px;
     }
     
     .sp__cor_texto
@@ -454,6 +460,7 @@ body
     
     .sp__imagem
     {
+        margin-bottom: 105px;
         width: 422.67px;
         height: 422.67px;
     }
