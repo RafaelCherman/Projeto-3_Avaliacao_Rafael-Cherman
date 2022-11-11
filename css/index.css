@@ -64,6 +64,12 @@ body
     {
         height: 522px;
         background-color: var(--cor-azul-forte);
+        background-image: url(../img/background_mobile.png);
+    }
+    #pp_fundo
+    {
+        
+        
     }
 
     .sp
