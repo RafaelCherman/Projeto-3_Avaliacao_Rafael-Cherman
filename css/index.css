@@ -17,13 +17,25 @@ body
     {
         height: 56px;
         background-color: var(--cor-azul-forte);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .header__logo
     {
+        margin: 16px;
         width: 26px;
         height: 20px;
     }
+    
+    .header__menu
+    {
+        margin: 16px;
+        width: 42px;
+        height: 24px;
+    }
+
 
     .header__texto
     {
