@@ -2,17 +2,14 @@
 :root
 {
     --cor-azul-forte: #043873;
-    --cor-branca: #DBDBDB;
+    --cor-bege: #DBDBDB;
+    --cor-branca: #ffffff;
 }
 body
 {
     width: 100%;
 }
-.pp
-    {
-        height: 522px;
-        background-color: var(--cor-azul-forte);
-    }
+
 
 @media (min-width: 320px) and (max-width:480px) 
 {
@@ -20,6 +17,29 @@ body
     {
         height: 56px;
         background-color: var(--cor-azul-forte);
+    }
+
+    .header__logo
+    {
+        width: 26px;
+        height: 20px;
+    }
+
+    .header__texto
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 19.644px;
+        line-height: 24px;
+        color: var(--cor-branca);
+    }
+
+    .header__texto_alinhamento
+    {
+        display: flex;
+        align-items: center;
+        gap: 7px;
     }
 
     footer
@@ -37,7 +57,7 @@ body
     .sp
     {
         height: 817px;
-        background-color: var(--cor-branca);
+        background-color: var(--cor-bege);
     }
 }
 
