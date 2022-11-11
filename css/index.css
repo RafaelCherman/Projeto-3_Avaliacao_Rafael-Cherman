@@ -1,7 +1,7 @@
 /*AVISO*/
-/*Nâo devo terminar todas as páginas responsivas*/
-/*Escrevendo no modo do futuro pois estou com medo que a energia da minha casa acabe*/
-/*e não volte a tempo para eu der o ultimo push pro repositorio*/
+/*Não devo terminar todas as páginas responsivas*/
+/*Escrevendo no modo do futuro pois estou com medo que a energia da minha casa acabe por causa do tempo*/
+/*e não volte a tempo para eu dar um ultimo push pro repositorio*/
 
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
@@ -10,6 +10,7 @@
     --cor-azul-forte: #043873;
     --cor-bege: #DBDBDB;
     --cor-branca: #ffffff;
+    --cor-preto: #212529;
 }
 body
 {
@@ -196,7 +197,39 @@ body
     .sp
     {
         height: 817px;
-        background-color: var(--cor-bege);
+        background-color: var(--cor-branca);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .sp__cor_texto
+    {
+        color: var(--cor-preto);
+    }
+
+    .sp__botao
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        gap: 10px;
+
+        width: 185px;
+        height: 70px;
+
+        background: #4F9CF9;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .sp__imagem
+    {
+        width: 259.74px;
+        height: 259.74px;
     }
 }
 
