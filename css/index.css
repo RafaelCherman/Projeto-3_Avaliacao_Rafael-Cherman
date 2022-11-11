@@ -65,14 +65,74 @@ body
         height: 522px;
         background-color: var(--cor-azul-forte);
         background-image: url(../img/background_mobile.png);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .pp__textos
+    {
+        
+        width: 100%;
     }
 
     .pp__texto_titulo
     {
-        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--cor-branca);
     }
 
+    .pp__texto_normal
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--cor-branca);
+    }
 
+    .pp__texto_botao
+    {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+
+        color: var(--cor-branca);
+    }
+
+    .pp__botao
+    {
+        margin-top: 60px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 40px;
+        gap: 10px;
+
+        width: 232px;
+        height: 70px;
+
+        background: #4F9CF9;
+        border-radius: 8px;
+        border: none;
+    }
 
     .pp__seta
     {
