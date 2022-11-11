@@ -235,7 +235,228 @@ body
 
 @media (min-width: 481px) and (max-width: 768px)
 {
+    header
+    {
+        margin: 0px;
+        height: 66px;
+        background-color: var(--cor-azul-forte);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header__logo
+    {
+        margin: 16px;
+        width: 37px;
+        height: 29px;
+    }
     
+    .header__menu
+    {
+        margin: 16px;
+        width: 42px;
+        height: 24px;
+    }
+
+
+    .header__texto
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 34px;
+        color: var(--cor-branca);
+    }
+
+    .header__texto_alinhamento
+    {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    footer
+    {
+        margin: 0px;
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 137px;
+        background-color: var(--cor-azul-forte);
+        
+    }
+
+    .footer__texto
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.02em;
+        color: var(--cor-branca);
+    }
+
+    .pp
+    {
+        height: 522px;
+        background-color: var(--cor-azul-forte);
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    #pp_fundo
+    {
+        background-image: url(../img/background_tablet.png);
+        background-size: 1485px 522px;
+    }
+    
+    .pp__textos
+    {
+        width: 100%;
+    }
+
+    .pp__texto_titulo
+    {
+        margin-top: 140px;
+        width: 728px;
+        height: 130px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 54px;
+        line-height: 65px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--cor-branca);
+    }
+
+    .pp__texto_normal
+    {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: var(--cor-branca);
+    }
+
+    .pp__texto_botao
+    {
+        width: 100%;
+        font-family: 'Inter';
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+
+        color: var(--cor-branca);
+    }
+
+    .pp__botao
+    {
+        
+        margin-top: 60px;
+        margin-bottom: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 40px;
+        gap: 10px;
+
+        width: 232px;
+        height: 70px;
+
+        background: #4F9CF9;
+        border-radius: 8px;
+        border: none;
+    }
+
+    .pp__seta
+    {
+        width: 11px;
+        height: 2px;
+        border-radius: 2px;
+        background-color: var(--cor-branca);
+        position: relative;
+    }
+
+    .pp__seta::after
+    {
+        content: "";
+        display: inline-block;
+        border-radius: 2px;
+        width: 7px;
+        height: 2px;
+        background-color: var(--cor-branca);
+        transform: rotate(45deg);
+        position: absolute;
+        right: -1.5px;
+        bottom: 2px;
+    }
+
+    .pp__seta::before
+    {
+        content: "";
+        display: inline-block;
+        border-radius: 2px;
+        width: 7px;
+        height: 2px;
+        background-color: var(--cor-branca);
+        transform: rotate(-45deg);
+        position: absolute;
+        right: -1.5px;
+        bottom: -2px;
+    }
+
+    .sp
+    {
+        height: 1002px;
+        background-color: var(--cor-branca);
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    
+    .sp__cor_texto
+    {
+        color: var(--cor-preto);
+    }
+
+    .sp__botao
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 40px;
+        gap: 10px;
+
+        width: 185px;
+        height: 70px;
+
+        background: #4F9CF9;
+        border-radius: 8px;
+        border: none;
+    }
+    
+    .sp__imagem
+    {
+        width: 422.67px;
+        height: 422.67px;
+    }
 }
 
 @media (min-width: 769px) and (max-width: 1920px)
